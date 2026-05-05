@@ -1,0 +1,14 @@
+name: DataFixer
+version: '${project.version}'
+main: com.blockmart.datafixer.DataFixerPlugin
+api-version: '1.20'
+author: harsh
+commands:
+  fixdata:
+    description: Fixes some data.
+    usage: /fixdata
+    permission: datafixer.fix
+permissions:
+  datafixer.fix:
+    description: Allows using the /fixdata command.
+    default: op
